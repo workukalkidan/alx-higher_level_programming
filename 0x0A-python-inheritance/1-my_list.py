@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-''' function that returns the list
-'''
+"""
+This module implements a custom list object
+"""
 
 
-def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
-    return dir(obj)
+class MyList(list):
+    """Custom List
+    """
+    def print_sorted(self):
+        """
+        prints the list, but sorted (ascending sort)
+        """
+        print(sorted(self))

@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""
-This module defines the a Rectangle Object.
-"""
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """Rectangle class skeleton"""
+    """Represent a rectangle."""
     pass
